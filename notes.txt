@@ -1,0 +1,19 @@
+1. to add a theme:
+
+in tailwind.config.js
+content: ["./templates/*.html"],
+  theme: {
+    extend: {
+      
+      colors:{
+        chatblack: {50:'#343541'}
+  }
+    },
+  },
+
+
+--> Using it
+bg-chatblack-50
+
+2. Setting height in tailwind css
+ h-[100vh] w-[100vw]
